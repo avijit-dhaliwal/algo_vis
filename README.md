@@ -43,7 +43,7 @@ Binary Search:
 89 |###############################################
 93 |##################################################
 Left: 0, Right: 19, Mid: 9
-Copy
+
 ## Graph Visualization and Traversals
 
 This project includes a complex graph structure to better demonstrate the differences between DFS and BFS traversals.
@@ -59,12 +59,12 @@ This project includes a complex graph structure to better demonstrate the differ
 \   /
 \ /
 8
-Copy
+
 ### Depth-First Search (DFS)
 
 Starting from vertex 0, the DFS traversal might produce:
 DFS traversal: 0 1 3 7 9 4 2 5 8 6
-Copy
+
 DFS Tree:
 0
 ├── 1
@@ -76,12 +76,12 @@ DFS Tree:
 ├── 5
 │   └── 8
 └── 6
-Copy
+
 ### Breadth-First Search (BFS)
 
 Starting from vertex 0, the BFS traversal would produce:
 BFS traversal: 0 1 2 3 4 5 6 7 8 9
-Copy
+
 BFS Tree:
 0
 ├── 1
@@ -93,7 +93,7 @@ BFS Tree:
 │   │   └── 8
 │   └── 6
 └── 9
-Copy
+
 This complex graph structure demonstrates how DFS explores deeply into the graph before backtracking, while BFS explores all neighbors at the current depth before moving to the next level.
 
 ## Technical Details

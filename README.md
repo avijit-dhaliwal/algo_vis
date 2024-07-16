@@ -21,27 +21,49 @@ This C-based project brings search algorithms and graph traversals to life throu
 ## Sample Output
 
 ### Binary Search Visualization
+
 Binary Search:
+
 6 |###
+
 7 |###
+
 9 |####
+
 9 |####
+
 10 |#####
+
 15 |########
+
 18 |#########
+
 20 |##########
+
 25 |#############
+
 29 |*************** <-- Current
+
 35 |##################
+
 45 |########################
+
 60 |################################
+
 64 |##################################
+
 68 |####################################
+
 71 |######################################
+
 85 |#############################################
+
 88 |###############################################
+
 89 |###############################################
+
 93 |##################################################
+
 Left: 0, Right: 19, Mid: 9
 
 ## Graph Visualization and Traversals
@@ -50,48 +72,79 @@ This project includes a complex graph structure to better demonstrate the differ
 
 ### Graph Structure
 0 --- 1 --- 3
+
 |     |     |
+
 |     |     |
+
 2 --- 4 --- 7
+
 |     |     |
+
 |     |     |
+
 5 --- 6 --- 9
+
 \   /
+
 \ /
+
 8
 
 ### Depth-First Search (DFS)
 
 Starting from vertex 0, the DFS traversal might produce:
+
 DFS traversal: 0 1 3 7 9 4 2 5 8 6
 
 DFS Tree:
+
 0
+
 ├── 1
+
 │   ├── 3
+
 │   │   └── 7
+
 │   │       └── 9
+
 │   └── 4
+
 └── 2
+
 ├── 5
+
 │   └── 8
+
 └── 6
 
 ### Breadth-First Search (BFS)
 
 Starting from vertex 0, the BFS traversal would produce:
+
 BFS traversal: 0 1 2 3 4 5 6 7 8 9
 
 BFS Tree:
+
 0
+
 ├── 1
+
 │   ├── 3
+
 │   │   └── 7
+
 │   └── 4
+
 ├── 2
+
 │   ├── 5
+
 │   │   └── 8
+
 │   └── 6
+
 └── 9
 
 This complex graph structure demonstrates how DFS explores deeply into the graph before backtracking, while BFS explores all neighbors at the current depth before moving to the next level.

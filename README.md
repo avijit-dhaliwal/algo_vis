@@ -115,20 +115,27 @@ gcc -o search_algorithms main.c search_algorithms.c -lm
 ## Code Structure
 
 main.c: Driver code and visualization functions
+
 search_algorithms.c: Core algorithm implementations
+
 search_algorithms.h: Function declarations and data structures
 
 ## Algorithmic Insights
 
 Binary Search: Demonstrates divide-and-conquer strategy
+
 Jump Search: Shows square root step optimization
+
 DFS vs BFS: Illustrates different graph exploration strategies
 
 ## Future Enhancements
 
 Implement additional algorithms (e.g., A*, Dijkstra's)
+
 Add colorized output for improved readability
+
 Create an interactive mode for user-defined inputs
+
 Extend to 2D grid-based pathfinding visualizations
 
 ## Contributing

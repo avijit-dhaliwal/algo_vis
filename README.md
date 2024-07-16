@@ -110,26 +110,31 @@ This complex graph structure demonstrates how DFS explores deeply into the graph
 ```bash
 gcc -o search_algorithms main.c search_algorithms.c -lm
 ./search_algorithms
-Code Structure
+```
+
+## Code Structure
 
 main.c: Driver code and visualization functions
 search_algorithms.c: Core algorithm implementations
 search_algorithms.h: Function declarations and data structures
 
-Algorithmic Insights
+## Algorithmic Insights
 
 Binary Search: Demonstrates divide-and-conquer strategy
 Jump Search: Shows square root step optimization
 DFS vs BFS: Illustrates different graph exploration strategies
 
-Future Enhancements
+## Future Enhancements
 
 Implement additional algorithms (e.g., A*, Dijkstra's)
 Add colorized output for improved readability
 Create an interactive mode for user-defined inputs
 Extend to 2D grid-based pathfinding visualizations
 
-Contributing
+## Contributing
+
 Contributions are welcome! Please feel free to submit a Pull Request.
-License
+
+## License
+
 This project is open source and available under the MIT License.
